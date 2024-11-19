@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors Game</title>
+    <link rel="stylesheet" href="/RPS/RPS.css">
+    <script src="/RPS/RPS.js" defer></script>
+</head>
+<body>
+    <div id="not">
+        <div id="notify">
+            <h2 id="name" style="color: white;">Rock paper & scissors Game</h2>
+            <h2 id="start">play game</h2>
+            
+            <p>play in</p>
+            <p id="playTimer"></p>
+            <button id="begin">loading...</button>
+        </div>
+    </div>
+    <div id="gamebox">
+        <p>rock paper scissors game</p>
+         <div id="game">
+            <button onclick="
+            computerpick()
+            playGame('rock');
+            notify()
+            " id="gamebtn">rock</button>
+            <button onclick="
+            computerpick()
+            playGame('paper');
+            notify()
+            " id="gamebtn">paper</button>
+            <button onclick="
+            computerpick();
+            playGame('scissors')
+            notify()
+            " id="gamebtn">scissors</button>
+         </div>
+         <div id="result"></div>
+        <div id="extrabtn">
+            <button onclick="
+            cResult.wins = 0;
+            cResult.loses = 0;
+            cResult.ties = 0;
+            document.getElementById('result').innerHTML = `<span> result cleared 
+            <br> wins: ${cResult.wins} <br> 
+            loses: ${cResult.loses} <br>
+            ties: ${cResult.ties} </span>`;
+            numOfInter = 0;
+            notify()
+            speech();
+            " id="scores">reset scores</button>
+            <button id='auto' onclick="autoplay()">autoplay</button>
+        </div>
+    </div>
+    <div id="reply">
+        <p id="replyname">computer:</p>
+        <p id="comtext"></p>
+    </div>
+    <footer>
+        <span id='win'></span>
+        <span id="com"></span>
+    </footer>
+</body>
+</html>
