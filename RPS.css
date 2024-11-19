@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 100%;
     background: black;
     overflow:hidden;
 
@@ -157,6 +157,7 @@ p {
 
 footer {
     width: 100%;
+    z-index: 999;
     position: fixed;
     display: flex;
     justify-content: center;
