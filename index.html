@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rock paper scissors Game</title>
-    <link rel="stylesheet" href="/RPS.css">
-    <script src="/RPS.js" defer></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/js/main.js" defer></script>
+    <title>Rock paper scissors Game</title>
 </head>
 <body>
     <div id="not">
         <div id="notify">
-            <h2 id="name" style="color: white;">Rock paper & scissors Game</h2>
-            <h2 id="start">play game</h2>
-            
-            <p>play in</p>
-            <p id="playTimer"></p>
-            <button id="begin">loading...</button>
+            <div id="playopt">
+                <h2 id="name" style="color: white;">Rock paper & scissors Game</h2>
+                <h2 id="start">play game</h2>
+                
+                <p>play in</p>
+                <p id="playTimer"></p>
+                <button id="begin">loading...</button>
+            </div>
+            <div id="dis">
+                <h3>About Rock Paper Scissors Game:</h3>
+                <p id="discription">Get ready to test your strategic skills against artifical intelligence
+                    at <a href="https://rock-paper-scisors-game-taupe.vercel.app" >rock-paper-scissors-game!</a> This interactive website allows you 
+                    to play the classic game of Rock paper scissors against a sophisticatd AI opponent.
+                    Simply choose your move in real-time. Track your wins, losses, and draws, with autoplay and adjust your strategy 
+                    as you compte against the AI's adaptive gameplay.
+                    <ul>
+                        <li><a href="/extral/rules.html" title="how to play rock paper scissors game" style="color: rgb(138, 138, 241);">rules of game</a></li>
+                    </ul>
+                </p>
+            </div>
         </div>
     </div>
     <div id="gamebox">
@@ -61,6 +75,7 @@
     <footer>
         <span id='win'></span>
         <span id="com"></span>
+        <p id="goback">Home</p>
     </footer>
 </body>
 </html>
