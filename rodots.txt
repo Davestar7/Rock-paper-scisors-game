@@ -1,3 +1,3 @@
-User-agent: *
-Allow:/
+User-agent:*
+Allow:
 sitemap: https://rock-paper-scisors-game-taupe.vercel.app/sitemap_new.xml
