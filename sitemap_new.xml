@@ -8,19 +8,19 @@
 
 
 <url>
-  <loc>https://rock-paper-scisors-game-taupe.vercel.app/index.html</loc>
-  <lastmod>2024-12-04T12:50:32+00:00</lastmod>
+  <loc>https://rock-paper-scisors-game-taupe.vercel.app/</loc>
+  <lastmod>2024-12-07T10:30:32+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rock-paper-scisors-game-taupe.vercel.app/extral/rules.html</loc>
   <lastmod>2024-12-04T12:56:32+00:00</lastmod> 
-  <priority>1.00</priority>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://rock-paper-scisors-game-taupe.vercel.app/index.html</loc>
-  <lastmod>2024-11-22T10:50:33+00:00</lastmod>
-  <priority>0.05</priority>
+  <lastmod>2024-11-07T10:30:33+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 
 
