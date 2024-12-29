@@ -1,4 +1,4 @@
 User-agent: *
-sitemap: https://rock-paper-scisors-game-taupe.vercel.app/sitemap_new.xml
+sitemap: https://rock-paper-scisors-game-five-inky.vercel.app/sitemap_new.xml
 Allow: /index.html
 Allow: /extral/rules.html
